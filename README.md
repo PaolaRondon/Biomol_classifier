@@ -15,6 +15,10 @@ e_molecules.csv | experimental features <br/>
 
 f_classif_em_molecules.csv | kbestfeatures after f_classif and data cleaning. Experimental features + must have features <br/>
 f_classif_emp_molecules.csv | kbestfeatures after f_classif and data cleaning. Experimental features + must have features + possible features <br/>
-f_classif_best.csv | best k features after f_classif cleaning. k=1 to k=34 as values <br/>
+f_classif_best.csv | best k features after f_classif cleaning. k=1 to k=all-1 as values <br/>
 
-mic_best.cvs | best k features after mutual info classif cleaning. k=1 to k=34 as values<br/>
+mic_best.cvs | best k features after mutual info classif cleaning. k=1 to k=all-1 as values<br/>
+
+
+best_df_KKN | best data frame after forward selection. mic, normal and f_classif were included in the forward feature selection<br/>
+best_df_linear | best data frame after forward selection. mic, normal and f_classif were included in the forward feature selection<br/>
