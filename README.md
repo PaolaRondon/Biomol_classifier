@@ -4,8 +4,12 @@ Biomol_classifier <br/>
 
 ## Instructions 🛠️
 
+the optimized algorithm is inside the forward__feature_selection folder, same for results and other data <br/>
+
 cns_smiles.txt | original txt with cns smiles and names <br/>
 non_cns_smiles.txt | original txt with  non cns smiles and names <br/>
+
+cns_smiles.txt and non_cns_smiles.txt were taken from: hose, A. K., Herbertz, T., Hudkins, R. L., Dorsey, B. D., & Mallamo, J. P. Knowledge-based, central nervous system (CNS) lead selection and lead optimization for CNS drug discovery. ACS Chemical Neuroscience, 3(1), pp 50–68, 2012.
 
 cns_molecues.csv | only cns molecules with all features <br/>
 non_cns_molecues.csv | only non ns molecules with all features <br/>
@@ -19,6 +23,3 @@ f_classif_best.csv | best k features after f_classif cleaning. k=1 to k=all-1 as
 
 mic_best.cvs | best k features after mutual info classif cleaning. k=1 to k=all-1 as values<br/>
 
-
-best_df_KKN | best data frame after forward selection. mic, normal and f_classif were included in the forward feature selection<br/>
-best_df_linear | best data frame after forward selection. mic, normal and f_classif were included in the forward feature selection<br/>
